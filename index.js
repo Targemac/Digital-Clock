@@ -135,7 +135,7 @@ let clock = () => {
   }
 
   document.getElementById("day_box").innerText = day;
-  document.getElementById("today_box").innerText = `${today}${suffix}`;
+  document.getElementById("today_box").innerText = `${today}`;
   document.getElementById("month_box").innerText = month;
   document.getElementById("year_box").innerText = year;
 };
